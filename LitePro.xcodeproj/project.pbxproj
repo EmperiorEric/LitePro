@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14E91D9715DBC57500159676 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E91D9615DBC57500159676 /* UIKit.framework */; };
+		14E91D9915DBC57500159676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E91D9815DBC57500159676 /* Foundation.framework */; };
+		14E91D9B15DBC57500159676 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E91D9A15DBC57500159676 /* CoreGraphics.framework */; };
+		14E91DA115DBC57500159676 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14E91D9F15DBC57500159676 /* InfoPlist.strings */; };
+		14E91DA315DBC57500159676 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E91DA215DBC57500159676 /* main.m */; };
+		14E91DA715DBC57500159676 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E91DA615DBC57500159676 /* AppDelegate.m */; };
+		14E91DAA15DBC57600159676 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E91DA815DBC57600159676 /* MainStoryboard_iPhone.storyboard */; };
+		14E91DAD15DBC57600159676 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E91DAB15DBC57600159676 /* MainStoryboard_iPad.storyboard */; };
+		14E91DB015DBC57600159676 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E91DAF15DBC57600159676 /* ViewController.m */; };
+		14E91DB815DBC59C00159676 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E91DA215DBC57500159676 /* main.m */; };
+		14E91DB915DBC59C00159676 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E91DA615DBC57500159676 /* AppDelegate.m */; };
+		14E91DBA15DBC59C00159676 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E91DAF15DBC57600159676 /* ViewController.m */; };
+		14E91DBC15DBC59C00159676 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E91D9615DBC57500159676 /* UIKit.framework */; };
+		14E91DBD15DBC59C00159676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E91D9815DBC57500159676 /* Foundation.framework */; };
+		14E91DBE15DBC59C00159676 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E91D9A15DBC57500159676 /* CoreGraphics.framework */; };
+		14E91DC015DBC59C00159676 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14E91D9F15DBC57500159676 /* InfoPlist.strings */; };
+		14E91DC115DBC59C00159676 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E91DA815DBC57600159676 /* MainStoryboard_iPhone.storyboard */; };
+		14E91DC215DBC59C00159676 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E91DAB15DBC57600159676 /* MainStoryboard_iPad.storyboard */; };
+		14E91DCC15DBC68D00159676 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E91DCB15DBC68D00159676 /* Property List.plist */; };
+		14E91DCE15DBC69F00159676 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E91DCD15DBC69F00159676 /* Property List.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14E91D9215DBC57500159676 /* LitePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LitePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E91D9615DBC57500159676 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14E91D9815DBC57500159676 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14E91D9A15DBC57500159676 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14E91D9E15DBC57500159676 /* LitePro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LitePro-Info.plist"; sourceTree = "<group>"; };
+		14E91DA015DBC57500159676 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14E91DA215DBC57500159676 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14E91DA415DBC57500159676 /* LitePro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LitePro-Prefix.pch"; sourceTree = "<group>"; };
+		14E91DA515DBC57500159676 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14E91DA615DBC57500159676 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14E91DA915DBC57600159676 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		14E91DAC15DBC57600159676 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		14E91DAE15DBC57600159676 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14E91DAF15DBC57600159676 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14E91DC615DBC59C00159676 /* LitePro copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LitePro copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E91DCB15DBC68D00159676 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		14E91DCD15DBC69F00159676 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		14E91DE715DBCD8D00159676 /* Lite-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Lite-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14E91D8F15DBC57500159676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E91D9715DBC57500159676 /* UIKit.framework in Frameworks */,
+				14E91D9915DBC57500159676 /* Foundation.framework in Frameworks */,
+				14E91D9B15DBC57500159676 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E91DBB15DBC59C00159676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E91DBC15DBC59C00159676 /* UIKit.framework in Frameworks */,
+				14E91DBD15DBC59C00159676 /* Foundation.framework in Frameworks */,
+				14E91DBE15DBC59C00159676 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14E91D8715DBC57500159676 = {
+			isa = PBXGroup;
+			children = (
+				14E91D9C15DBC57500159676 /* LitePro */,
+				14E91D9515DBC57500159676 /* Frameworks */,
+				14E91D9315DBC57500159676 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14E91D9315DBC57500159676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14E91D9215DBC57500159676 /* LitePro.app */,
+				14E91DC615DBC59C00159676 /* LitePro copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14E91D9515DBC57500159676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14E91D9615DBC57500159676 /* UIKit.framework */,
+				14E91D9815DBC57500159676 /* Foundation.framework */,
+				14E91D9A15DBC57500159676 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14E91D9C15DBC57500159676 /* LitePro */ = {
+			isa = PBXGroup;
+			children = (
+				14E91DA515DBC57500159676 /* AppDelegate.h */,
+				14E91DA615DBC57500159676 /* AppDelegate.m */,
+				14E91DA815DBC57600159676 /* MainStoryboard_iPhone.storyboard */,
+				14E91DAB15DBC57600159676 /* MainStoryboard_iPad.storyboard */,
+				14E91DAE15DBC57600159676 /* ViewController.h */,
+				14E91DAF15DBC57600159676 /* ViewController.m */,
+				14E91DC915DBC66C00159676 /* Lite */,
+				14E91DCA15DBC66C00159676 /* Pro */,
+				14E91D9D15DBC57500159676 /* Supporting Files */,
+			);
+			path = LitePro;
+			sourceTree = "<group>";
+		};
+		14E91D9D15DBC57500159676 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14E91D9E15DBC57500159676 /* LitePro-Info.plist */,
+				14E91DE715DBCD8D00159676 /* Lite-Info.plist */,
+				14E91D9F15DBC57500159676 /* InfoPlist.strings */,
+				14E91DA215DBC57500159676 /* main.m */,
+				14E91DA415DBC57500159676 /* LitePro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14E91DC915DBC66C00159676 /* Lite */ = {
+			isa = PBXGroup;
+			children = (
+				14E91DCB15DBC68D00159676 /* Property List.plist */,
+			);
+			path = Lite;
+			sourceTree = "<group>";
+		};
+		14E91DCA15DBC66C00159676 /* Pro */ = {
+			isa = PBXGroup;
+			children = (
+				14E91DCD15DBC69F00159676 /* Property List.plist */,
+			);
+			path = Pro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14E91D9115DBC57500159676 /* LitePro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E91DB315DBC57600159676 /* Build configuration list for PBXNativeTarget "LitePro" */;
+			buildPhases = (
+				14E91D8E15DBC57500159676 /* Sources */,
+				14E91D8F15DBC57500159676 /* Frameworks */,
+				14E91D9015DBC57500159676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LitePro;
+			productName = LitePro;
+			productReference = 14E91D9215DBC57500159676 /* LitePro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14E91DB615DBC59C00159676 /* Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E91DC315DBC59C00159676 /* Build configuration list for PBXNativeTarget "Lite" */;
+			buildPhases = (
+				14E91DB715DBC59C00159676 /* Sources */,
+				14E91DBB15DBC59C00159676 /* Frameworks */,
+				14E91DBF15DBC59C00159676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lite;
+			productName = LitePro;
+			productReference = 14E91DC615DBC59C00159676 /* LitePro copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14E91D8915DBC57500159676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Super Duper Publications";
+			};
+			buildConfigurationList = 14E91D8C15DBC57500159676 /* Build configuration list for PBXProject "LitePro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14E91D8715DBC57500159676;
+			productRefGroup = 14E91D9315DBC57500159676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14E91D9115DBC57500159676 /* LitePro */,
+				14E91DB615DBC59C00159676 /* Lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14E91D9015DBC57500159676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E91DA115DBC57500159676 /* InfoPlist.strings in Resources */,
+				14E91DAA15DBC57600159676 /* MainStoryboard_iPhone.storyboard in Resources */,
+				14E91DAD15DBC57600159676 /* MainStoryboard_iPad.storyboard in Resources */,
+				14E91DCE15DBC69F00159676 /* Property List.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E91DBF15DBC59C00159676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E91DC015DBC59C00159676 /* InfoPlist.strings in Resources */,
+				14E91DC115DBC59C00159676 /* MainStoryboard_iPhone.storyboard in Resources */,
+				14E91DC215DBC59C00159676 /* MainStoryboard_iPad.storyboard in Resources */,
+				14E91DCC15DBC68D00159676 /* Property List.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14E91D8E15DBC57500159676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E91DA315DBC57500159676 /* main.m in Sources */,
+				14E91DA715DBC57500159676 /* AppDelegate.m in Sources */,
+				14E91DB015DBC57600159676 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E91DB715DBC59C00159676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E91DB815DBC59C00159676 /* main.m in Sources */,
+				14E91DB915DBC59C00159676 /* AppDelegate.m in Sources */,
+				14E91DBA15DBC59C00159676 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14E91D9F15DBC57500159676 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E91DA015DBC57500159676 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14E91DA815DBC57600159676 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E91DA915DBC57600159676 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		14E91DAB15DBC57600159676 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E91DAC15DBC57600159676 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14E91DB115DBC57600159676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14E91DB215DBC57600159676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14E91DB415DBC57600159676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LitePro/LitePro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"PRO=1",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "LitePro/LitePro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14E91DB515DBC57600159676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LitePro/LitePro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PRO=1";
+				INFOPLIST_FILE = "LitePro/LitePro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		14E91DC415DBC59C00159676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LitePro/LitePro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"PRO=0",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LitePro/Lite-Info.plist";
+				PRODUCT_NAME = "LitePro copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14E91DC515DBC59C00159676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LitePro/LitePro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PRO=0";
+				INFOPLIST_FILE = "$(SRCROOT)/LitePro/Lite-Info.plist";
+				PRODUCT_NAME = "LitePro copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14E91D8C15DBC57500159676 /* Build configuration list for PBXProject "LitePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E91DB115DBC57600159676 /* Debug */,
+				14E91DB215DBC57600159676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E91DB315DBC57600159676 /* Build configuration list for PBXNativeTarget "LitePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E91DB415DBC57600159676 /* Debug */,
+				14E91DB515DBC57600159676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14E91DC315DBC59C00159676 /* Build configuration list for PBXNativeTarget "Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E91DC415DBC59C00159676 /* Debug */,
+				14E91DC515DBC59C00159676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14E91D8915DBC57500159676 /* Project object */;
+}
